@@ -1,0 +1,34 @@
+:root {
+  --background-primary: #ffffff;
+  --background-secondary: #f8f8f8;
+  --background-tertiary: #e6e6e6;
+  --accent: #0097c2;
+  --text-primary: #00244d;
+  --text-secondary: #637182;
+  --gradient-1: linear-gradient(342.45deg, #97e0f3 -32.65%, #ffffff 85.43%);
+  --gradient-2: linear-gradient(283.59deg, #00244d 26.1%, #1769c6 170.66%);
+  --yellow: #ffd900;
+  --red: #dc1c6a;
+  --green: #2cbfae;
+
+  /* Headings Font Styles */
+  --main-heading: 700 clamp(1.5rem, 2rem, 3rem) 'SegoeUI', sans-serif;
+  --sub-heading: 700 clamp(1rem, 1.25rem, 2rem) 'SegoeUI', sans-serif;
+  /* Titles Font Styles */
+  --main-title: 700 clamp(1rem, 1.25rem, 1.5rem) 'SegoeUI', sans-serif;
+  --sub-title: 700 clamp(0.8rem, 1rem, 1.25rem) 'SegoeUI', sans-serif;
+  /* Labels Font Styles */
+  --main-label: 400 clamp(0.8rem, 1rem, 1.25rem) 'SegoeUI', sans-serif;
+  --sub-label: 400 clamp(0.6rem, 0.8rem, 1rem) 'SegoeUI', sans-serif;
+  /* Texts Font Styles */
+  --main-text: 400 clamp(0.8rem, 1rem, 1.25rem) 'SegoeUI', sans-serif;
+  --sub-text: 400 clamp(0.7rem, 0.8rem, 1rem) 'SegoeUI', sans-serif;
+
+  /* Spacing Units */
+  --spacing: 1.5rem;
+  --double-spacing: 3rem;
+  --half-spacing: 0.75rem;
+  --border-radius: 1.5rem;
+  --half-border-radius: 0.75rem;
+  --circular-border-radius: 10rem;
+}

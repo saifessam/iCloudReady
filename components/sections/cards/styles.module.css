@@ -1,0 +1,23 @@
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 10%;
+  overflow: hidden;
+}
+
+.cards-section::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  right: -85%;
+  background: linear-gradient(283.59deg, #00244d 26.1%, #1769c6 170.66%);
+  transform: rotate(-55deg);
+  z-index: -1;
+}
+
+#red path {
+  fill: #d84242;
+}

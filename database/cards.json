@@ -1,0 +1,34 @@
+[
+	{
+		"id": "01",
+		"image": "customer-engagement.png",
+		"title": "Customer Engagement",
+		"paragraph": "Get your own mobile app for industry specific",
+		"dtsu": "100",
+		"color": "#0A488F"
+	},
+	{
+		"id": "02",
+		"image": "actionable-insights.png",
+		"title": "Actionable Insights",
+		"paragraph": "Create Dashboards",
+		"dtsu": "100",
+		"color": "#579064"
+	},
+	{
+		"id": "03",
+		"image": "employees-productivity.png",
+		"title": "Employees Productivity",
+		"paragraph": "KPI Builder , Work Conf,Create Oracle Requests",
+		"dtsu": "50",
+		"color": "#950000"
+	},
+	{
+		"id": "04",
+		"image": "operations-excellence.png",
+		"title": "Operations Excellence",
+		"paragraph": "Tenant/lessee Management",
+		"dtsu": "100",
+		"color": "#8F6C0A"
+	}
+]

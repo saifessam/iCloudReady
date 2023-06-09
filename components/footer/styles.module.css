@@ -1,0 +1,16 @@
+.footer {
+  position: relative;
+  background-color: #ffffff;
+  text-align: center;
+  overflow: visible;
+}
+
+.footer::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 200%;
+  background-color: #0097c2;
+}

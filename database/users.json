@@ -1,0 +1,37 @@
+[
+	{
+		"id": "01",
+		"name": "Harper Perez",
+		"image": "1.png"
+	},
+	{
+		"id": "02",
+		"name": "Lucas Lee",
+		"image": "2.png"
+	},
+	{
+		"id": "03",
+		"name": "Mason Jackson",
+		"image": "3.png"
+	},
+	{
+		"id": "04",
+		"name": "Luna Taylor",
+		"image": "4.png"
+	},
+	{
+		"id": "05",
+		"name": "Aria Clark",
+		"image": "5.png"
+	},
+	{
+		"id": "06",
+		"name": "Logan Gonzalez",
+		"image": "6.png"
+	},
+	{
+		"id": "07",
+		"name": "Liam Rodriguez",
+		"image": "7.png"
+	}
+]
