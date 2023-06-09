@@ -1,0 +1,24 @@
+[
+	{
+		"id": "1",
+		"product": {
+			"name": "Smart Checklist",
+			"items": [
+				"Default Title",
+				"12.00 DTSU"
+			]
+		},
+		"quantity": 2
+	},
+	{
+		"id": "2",
+		"product": {
+			"name": "Smart Checklist",
+			"items": [
+				"Default Title",
+				"12.00 DTSU"
+			]
+		},
+		"quantity": 2
+	}
+]

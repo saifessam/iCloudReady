@@ -1,7 +1,10 @@
 "use client";
 
+import CartDrawer from '@/components/drawers/cart';
+import KitchenDrawer from '@/components/drawers/kitchen';
 import Footer from '@/components/footer';
 import Header from '@/components/header';
+import DrawersContextProvider from '@/context/drawers';
 import '@/styles/app.css';
 import { Layout } from "antd";
 
@@ -22,13 +25,17 @@ export default function RootLayout({ children }: Props) {
         <title>iCloudReady</title>
       </head>
       <body>
-        <Layout style={{ backgroundColor: "transparent" }}>
-          <Header />
-          <Layout.Content>
-            {children}
-          </Layout.Content>
-          <Footer />
-        </Layout>
+        <DrawersContextProvider>
+          <Layout style={{ backgroundColor: "transparent" }}>
+            <Header />
+            <Layout.Content>
+              {children}
+              <CartDrawer />
+              <KitchenDrawer />
+            </Layout.Content>
+            <Footer />
+          </Layout>
+        </DrawersContextProvider>
       </body>
     </html>
   );

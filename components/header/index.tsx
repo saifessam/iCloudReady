@@ -1,11 +1,15 @@
+import { DrawersContext, DrawersContextType } from '@/context/drawers';
 import UsersJSON from '@/database/users.json';
 import CartSVG from '@/public/assets/svgs/cart.svg';
 import FridgeSVG from '@/public/assets/svgs/fridge.svg';
-import { Avatar, Badge, Button, Image, Layout, Typography } from "antd";
 import User from '@/types/user';
+import { Avatar, Badge, Button, Image, Layout, Typography } from "antd";
+import { useContext } from 'react';
 import styles from './styles.module.css';
 
 export default function Header() {
+	const { setOpenedDrawer } = useContext<DrawersContextType>(DrawersContext);
+
 	return (
 		<Layout.Header className={styles["header"]}>
 			<div className={styles['heading']}>
@@ -25,10 +29,10 @@ export default function Header() {
 
 			<nav className={styles['buttons']}>
 				<Badge color='#FFD900' count={2}>
-					<Button type="primary" shape='circle' icon={<CartSVG />} />
+					<Button type="primary" shape='circle' icon={<CartSVG />} onClick={() => setOpenedDrawer(prev => ({ ...prev, cart: true }))} />
 				</Badge>
 				<Badge color='#FFD900' count={3}>
-					<Button type="primary" shape='circle' icon={<FridgeSVG />} />
+					<Button type="primary" shape='circle' icon={<FridgeSVG />} onClick={() => setOpenedDrawer(prev => ({ ...prev, kitchen: true }))} />
 				</Badge>
 			</nav>
 		</Layout.Header>
